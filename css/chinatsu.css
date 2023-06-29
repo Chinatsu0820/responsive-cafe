@@ -9,10 +9,10 @@
 
 body {
     background-color: white;
-    /*#223D3C*/
     color: #141414;
 }
 
+/*--- This CSS is only for about.html & index.html ---*/
 /* -----------MENU(NAV)----------- */
 nav {
     font-weight: 800;
@@ -100,7 +100,7 @@ input {
 }
 
 /* --Mobile-- */
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 426px) {
     .menu-list {
         display: none;
     }
@@ -181,27 +181,31 @@ input {
 
 
 /* --Desktop-- */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 787px) {
     .header-animals-mobile {
         display: none;
     }
 }
 
 /* --Tablet-- */
-@media only screen and (min-width: 600px) and (max-width: 1023px) {
+@media only screen and (min-width: 427px) and (max-width: 786px) {
     .header-animals-mobile {
         display: none;
     }
 }
 
 /* --Mobile-- */
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 426px) {
     .header-animals {
         display: none;
     }
 
     .header-animals-mobile {
         display: flex;
+    }
+
+    .animals-profile {
+        font-size: 13px;
     }
 }
 
@@ -248,7 +252,7 @@ input {
 }
 
 /* --Mobile-- */
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 426px) {
     .animals-picture {
         width: 50vw;
     }
@@ -333,7 +337,7 @@ input {
 }
 
 /* --Mobile-- */
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 426px) {
     .story-container.con1 {
         flex-direction: column;
     }
@@ -397,7 +401,7 @@ input {
 }
 
 /* --Tablet-- */
-@media only screen and (min-width: 600px) and (max-width: 1023px) {
+@media only screen and (min-width: 427px) and (max-width: 786px) {
     .animalspngs.one,
     .animalspngs.three {
         height: 30%;
@@ -412,7 +416,7 @@ input {
 }
 
 /* --Mobile-- */
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 426px) {
 
     .testimonies.left,
     .testimonies.right {
@@ -552,4 +556,28 @@ input {
 
 .footer-map {
     margin-right: 70px;
+}
+
+@media (max-width: 786px) {
+    .footer-container {
+        gap: 1rem;
+        padding: 1rem;
+    }
+    .social-media {
+        justify-content: center;
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 426px) {
+    .footer-container {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
+        width: 100%;
+    }
+    .social-media {
+        justify-content: center;
+        gap: 1rem;
+    }
 }
