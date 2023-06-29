@@ -11,4 +11,6 @@ Features:
 
 Technologies Used:
 -HTML
--CSS (Flexbox)
+-CSS
+ -All of the things we have learned / Flexbox, Grid, CSS units, media queries, etc
+-Make all of the pages responsive (mobile, tablet, desktop)
